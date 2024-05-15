@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/GmyrjvXu)
 # Super Dad Tribute Page
 
 This repository contains a tribute page dedicated to the memory of Michael Katzav, a beloved father, husband, and businessman. The page celebrates his life, showcasing his personal photos, favorite music playlist, and providing an opportunity for visitors to engage through social media and a Q&A section.
@@ -59,7 +58,7 @@ Contributions to the tribute page are welcome. If you have suggestions for impro
 
 ## Credits
 
-- Tribute page created by Tomer Katzav
+- Tribute page created by Tomer Katzav 207219783
 - Tribute content inspired by the life of Michael Katzav
 
 ## github.io link
