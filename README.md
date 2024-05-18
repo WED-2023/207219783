@@ -1,6 +1,10 @@
-# Super Dad Tribute Page
+# Super Dad Page
 
 This repository contains a tribute page dedicated to the memory of Michael Katzav, a beloved father, husband, and businessman. The page celebrates his life, showcasing his personal photos, favorite music playlist, and providing an opportunity for visitors to engage through social media and a Q&A section.
+
+## github.io link
+
+[Visit the tribute page](https://wed-2023.github.io/207219783/)
 
 ## Contents
 
@@ -61,6 +65,4 @@ Contributions to the tribute page are welcome. If you have suggestions for impro
 - Tribute page created by Tomer Katzav 207219783
 - Tribute content inspired by the life of Michael Katzav
 
-## github.io link
 
-[Visit the tribute page](https://wed-2023.github.io/207219783/)
