@@ -1,7 +1,266 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+/* Set font family to Arial or sans-serif for the entire body */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
+	font-size: 20px; /* Set default font size to 20px */
 }
+
+/* Display gallery images horizontally */
+.gallery {
+	display: flex;
+	flex-direction: row; /* Align items horizontally */
+}
+  
+/* Add margin to each photo */
+.photo {
+	margin-right: 20px; /* Adjust the spacing between each photo */
+}
+  
+/* Add margin to the right of each image */
+.photo img {
+	margin-right: 10px; /* Adjust the spacing between the photo and the description */
+}
+
+/* Style the form */
+form {
+	margin: 0 auto; /* Center the form horizontally */
+	max-width: 600px; /* Set maximum width of the form */
+}
+
+/* Style form labels */
+form label {
+	display: block; /* Display labels as block elements */
+	margin-bottom: 5px; /* Add margin below each label */
+}
+
+/* Style form input fields and textarea */
+form input[type="email"],
+form textarea {
+	width: 100%; /* Make input fields and textarea full-width */
+	padding: 10px; /* Add padding */
+	margin-bottom: 10px; /* Add margin below each input */
+}
+
+/* Style form button */
+form input[type="button"] {
+	padding: 10px 20px; /* Add padding */
+	background-color: #333; /* Set background color */
+	color: white; /* Set text color */
+	border: none; /* Remove border */
+	cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Center align section headings */
+section h2 {
+	text-align: center;
+}
+
+/* Center align content within the "like" section */
+#like.section {
+	text-align: center;
+}
+
+/* Center align gallery images */
+.gallery {
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+}
+  
+/* Add margin around gallery images */
+.gallery img {
+	margin: 0 10px; /* Add margin between images if needed */
+}
+
+/* Center align QR code */
+#qrcoder {
+	text-align: center;
+}
+
+/* Display QR code as inline-block */
+#qrcoder img {
+	display: inline-block; /* Ensure the image behaves as an inline-block element */
+}
+
+/* Style mail icon */
+.mail-icon {
+	font-size: 35px; /* Set font size */
+	margin-left: 10px; /* Add margin to the left */
+}
+
+/* Style playlist container */
+.playlist-container {
+	display: flex; /* Display items as flex */
+	flex-direction: row; /* Arrange items horizontally */
+	justify-content: space-between; /* Distribute space between items */
+	align-items: center; /* Center items vertically */
+}
+
+/* Style video wrapper */
+.video-wrapper {
+	width: 60%; /* Set width */
+	margin-right: 20px; /* Add margin to the right */
+}
+
+/* Set iframe width to 100% */
+.video-wrapper iframe {
+	width: 100%; /* Make iframe fill its container */
+}
+
+/* Style description */
+.description {
+	width: 35%; /* Set width */
+}
+
+/* Style description headings */
+.description h3 {
+	font-size: 24px; /* Set font size */
+	color: #333; /* Set color */
+	margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+/* Style description paragraphs */
+.description p {
+	font-size: 20px; /* Set font size */
+	line-height: 1.5; /* Set line height */
+	color: #666; /* Set color */
+}
+
+/* Toolbar styling */
+.toolbar {
+	display: flex; /* Display items as flex */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	background-color: #4e9dcb; /* Set background color */
+	padding: 10px 0; /* Add padding */
+	text-align: center; /* Center align text */
+	height: 130px; /* Set height */
+	font-family: Arial, sans-serif; /* Set font family */
+}
+
+/* Style toolbar list */
+.toolbar ul {
+	list-style-type: none; /* Remove default list style */
+	padding: 0; /* Remove default padding */
+	margin: 0; /* Remove default margin */
+	text-align: center; /* Center align text */
+}
+
+/* Style toolbar list items */
+.toolbar ul li {
+	display: inline; /* Display items inline */
+	margin-right: 10px; /* Add margin to the right */
+	position: relative; /* Set position to relative */
+}
+
+/* Remove margin from the last toolbar list item */
+.toolbar ul li:last-child {
+	margin-right: 0; /* Remove margin */
+}
+
+/* Style toolbar links */
+.toolbar ul li a {
+	color: #fff; /* Set link color */
+	text-decoration: none; /* Remove underline */
+	font-size: 30px; /* Set font size */
+}
+
+/* Style toolbar links on hover */
+.toolbar ul li a:hover {
+	text-decoration: underline; /* Add underline on hover */
+}
+
+/* Fixed position for toolbar */
+.fixed {
+	position: fixed; /* Set position to fixed */
+	top: 0; /* Stick to the top */
+	left: 0; /* Stick to the left */
+	width: 100%; /* Set width to full */
+	z-index: 1000; /* Set z-index */
+	font-size: 30px; /* Set font size */
+}
+
+/* Header styling */
+header {
+	display: flex; /* Display items as flex */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	background-color: #4e9dcb; /* Set background color */
+	padding: 10px 0; /* Add padding */
+	text-align: center; /* Center align text */
+	height: 130px; /* Set height */
+	font-family: Arial, sans-serif; /* Set font family */
+}
+
+/* Style logo */
+.logo {
+	margin-right: auto; /* Move logo to the left */
+}
+
+/* Style logo image */
+.logo img {
+	height: 300px; /* Set height */
+	width: auto; /* Set width to auto to maintain aspect ratio */
+}
+
+/* Style navigation ul */
+nav ul {
+	list-style-type: none; /* Remove default list style */
+	padding: 0; /* Remove default padding */
+	margin: 0; /* Remove default margin */
+	text-align: center; /* Center align text */
+}
+
+/* Style navigation list items */
+nav ul li {
+	display: inline; /* Display items inline */
+	margin-right: 7px; /* Add margin to the right */
+	position: relative; /* Set position to relative */
+}
+
+/* Remove separator after each navigation item */
+nav ul li::after {
+	content: ""; /* Remove content */
+}
+
+/* Style navigation links */
+nav ul li a {
+	color: #fff; /* Set link color */
+	text-decoration: none; /* Remove underline */
+	font-size: 30px; /* Set font size */
+}
+
+/* Style navigation links on hover */
+nav ul li a:hover {
+	text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style Q&A answer */
+.qa-answer {
+	margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Style Q&A answer headings */
+.qa-answer h3 {
+	color: #333; /* Set color */
+	font-size: 1.2em; /* Set font size */
+	margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+/* Style Q&A answer paragraphs */
+.qa-answer p {
+	font-size: 1em; /* Set font size */
+	line-height: 1.5; /* Set line height */
+}
+
+/* Style Q&A answer bold text */
+.qa-answer b {
+	color: #007bff; /* Set color */
+}
+
+/* Style Q&A answer list items */
+.qa-answer li {
+	margin-bottom: 5px; /* Add margin at the bottom */
+}
+
