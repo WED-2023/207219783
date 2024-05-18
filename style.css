@@ -51,6 +51,12 @@ form input[type="button"] {
 	cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+#about p {
+	line-height: 1.8; /* Increase the line height for better readability */
+	margin: 0 20px; /* Add some margin to the left and right */
+	text-align: justify; /* Justify text for a cleaner look */
+  }
+
 /* Center align section headings */
 section h2 {
 	text-align: center;
@@ -150,20 +156,20 @@ section h2 {
 /* Style toolbar list items */
 .toolbar ul li {
 	display: inline; /* Display items inline */
-	margin-right: 10px; /* Add margin to the right */
+	margin-right: 20px; /* Add margin to the right */
 	position: relative; /* Set position to relative */
 }
 
 /* Remove margin from the last toolbar list item */
 .toolbar ul li:last-child {
-	margin-right: 0; /* Remove margin */
+	margin-right: 10; /* Remove margin */
 }
 
 /* Style toolbar links */
 .toolbar ul li a {
 	color: #fff; /* Set link color */
 	text-decoration: none; /* Remove underline */
-	font-size: 30px; /* Set font size */
+	font-size: 25px; /* Set font size to 20px */
 }
 
 /* Style toolbar links on hover */
@@ -215,7 +221,7 @@ nav ul {
 /* Style navigation list items */
 nav ul li {
 	display: inline; /* Display items inline */
-	margin-right: 7px; /* Add margin to the right */
+	margin-right: 20px; /* Add margin to the right */
 	position: relative; /* Set position to relative */
 }
 
@@ -228,7 +234,7 @@ nav ul li::after {
 nav ul li a {
 	color: #fff; /* Set link color */
 	text-decoration: none; /* Remove underline */
-	font-size: 30px; /* Set font size */
+	font-size: 25px; /* Set font size to 20px */
 }
 
 /* Style navigation links on hover */
@@ -263,4 +269,3 @@ nav ul li a:hover {
 .qa-answer li {
 	margin-bottom: 5px; /* Add margin at the bottom */
 }
-
