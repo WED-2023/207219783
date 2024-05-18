@@ -245,6 +245,7 @@ nav ul li a:hover {
 /* Style Q&A answer */
 .qa-answer {
 	margin-bottom: 20px; /* Add margin at the bottom */
+	padding-left: 20px; /* Add padding on the left */
 }
 
 /* Style Q&A answer headings */
